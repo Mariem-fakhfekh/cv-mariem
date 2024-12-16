@@ -1,0 +1,9 @@
+
+. : Classe
+# : Identifiant
+[] : Attribut
+, : Groupe
+ div p (espace) : Descendant :<p> qui sont à l'intérieur d'un <div>.
+> : Enfant direct
+1+2 : Frère adjacent : le premier élément2 qui suit directement élément1
+: : Pseudo-classe(a:hover)

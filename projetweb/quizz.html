@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz Python</title>
+    <link rel="stylesheet" href="stylequizz.css">
+    <script src="scriptquizz.js" defer></script>
+</head>
+<body>
+    
+    <script src="scriptquizz.js" defer></script>
+    <h1>Quizz Python</h1>
+    <form onsubmit="return submitQuiz();">
+        <div class="question">
+            <h2>1. What is a correct syntax to output "Hello World" in Python?</h2>
+            <label><input type="radio" name="question1" value="a"> echo("Hello World");</label><br>
+            <label><input type="radio" name="question1" value="b"> echo "Hello World"</label><br>
+            <label><input type="radio" name="question1" value="c"> print("Hello World")</label><br>
+            <label><input type="radio" name="question1" value="d"> p("Hello World")</label><br>
+        </div>
+
+        <div class="question">
+            <h2>2. Which data type is used to store a true or false value in Python?</h2>
+            <label><input type="radio" name="question2" value="a"> str</label><br>
+            <label><input type="radio" name="question2" value="b"> int</label><br>
+            <label><input type="radio" name="question2" value="c"> bool</label><br>
+            <label><input type="radio" name="question2" value="d"> float</label><br>
+        </div>
+
+        <div class="question">
+            <h2>3. Which of the following is not a valid variable name in Python?</h2>
+            <label><input type="radio" name="question3" value="a"> myVar</label><br>
+            <label><input type="radio" name="question3" value="b"> _myVar</label><br>
+            <label><input type="radio" name="question3" value="c"> 2myVar</label><br>
+            <label><input type="radio" name="question3" value="d"> my_var</label><br>
+        </div>
+
+        <div class="question">
+            <h2>4. What is the correct way to create a function in Python?</h2>
+            <label><input type="radio" name="question4" value="a"> function myFunction():</label><br>
+            <label><input type="radio" name="question4" value="b"> def myFunction():</label><br>
+            <label><input type="radio" name="question4" value="c"> create myFunction():</label><br>
+            <label><input type="radio" name="question4" value="d"> func myFunction():</label><br>
+        </div>
+
+        <div class="question">
+            <h2>5. Which operator is used to multiply numbers in Python?</h2>
+            <label><input type="radio" name="question5" value="a"> *</label><br>
+            <label><input type="radio" name="question5" value="b"> x</label><br>
+            <label><input type="radio" name="question5" value="c"> **</label><br>
+            <label><input type="radio" name="question5" value="d"> /</label><br>
+        </div>
+
+        <div class="question">
+            <h2>6. What is the output of the following code: `print(type(5))`?</h2>
+            <label><input type="radio" name="question6" value="a">&lt;class 'int'&gt;</label><br>
+            <label><input type="radio" name="question6" value="b">&lt;type 'int'&gt;</label><br>
+            <label><input type="radio" name="question6" value="c"> int</label><br>
+            <label><input type="radio" name="question6" value="d"> 5</label><br>
+        </div>
+
+        <div class="question">
+            <h2>7. Which statement is used to create an empty list in Python?</h2>
+            <label><input type="radio" name="question7" value="a"> list = {}</label><br>
+            <label><input type="radio" name="question7" value="b"> list = []</label><br>
+            <label><input type="radio" name="question7" value="c"> list = ()</label><br>
+            <label><input type="radio" name="question7" value="d"> list = null</label><br>
+        </div>
+
+        <div class="question">
+            <h2>8. Which of the following is used to handle exceptions in Python?</h2>
+            <label><input type="radio" name="question8" value="a"> try</label><br>
+            <label><input type="radio" name="question8" value="b"> catch</label><br>
+            <label><input type="radio" name="question8" value="c"> handle</label><br>
+            <label><input type="radio" name="question8" value="d"> except</label><br>
+        </div>
+
+        <div class="question">
+            <h2>9. What is the output of `print(bool(""))`?</h2>
+            <label><input type="radio" name="question9" value="a"> True</label><br>
+            <label><input type="radio" name="question9" value="b"> False</label><br>
+            <label><input type="radio" name="question9" value="c"> None</label><br>
+            <label><input type="radio" name="question9" value="d"> ""</label><br>
+        </div>
+
+        <div class="question">
+            <h2>10. Which method is used to remove whitespace from the beginning and end of a string in Python?</h2>
+            <label><input type="radio" name="question10" value="a"> trim()</label><br>
+            <label><input type="radio" name="question10" value="b"> strip()</label><br>
+            <label><input type="radio" name="question10" value="c"> len()</label><br>
+            <label><input type="radio" name="question10" value="d"> cut()</label><br>
+        </div>
+
+        <div class="question">
+            <h2>11. How do you start a comment in Python?</h2>
+            <label><input type="radio" name="question11" value="a"> //</label><br>
+            <label><input type="radio" name="question11" value="b"> #</label><br>
+            <label><input type="radio" name="question11" value="c"> /* */</label><br>
+            <label><input type="radio" name="question11" value="d"> --</label><br>
+        </div>
+
+        <div class="question">
+            <h2>12. What is the correct way to check if a variable `x` is equal to 10?</h2>
+            <label><input type="radio" name="question12" value="a"> if x = 10:</label><br>
+            <label><input type="radio" name="question12" value="b"> if x == 10:</label><br>
+            <label><input type="radio" name="question12" value="c"> if x := 10:</label><br>
+            <label><input type="radio" name="question12" value="d"> if x === 10:</label><br>
+        </div>
+
+        <div class="question">
+            <h2>13. Which of the following is a mutable data type in Python?</h2>
+            <label><input type="radio" name="question13" value="a"> tuple</label><br>
+            <label><input type="radio" name="question13" value="b"> string</label><br>
+            <label><input type="radio" name="question13" value="c"> list</label><br>
+            <label><input type="radio" name="question13" value="d"> int</label><br>
+        </div>
+
+        <div class="question">
+            <h2>14. What is the output of `print(3 * 2 ** 2)`?</h2>
+            <label><input type="radio" name="question14" value="a"> 12</label><br>
+            <label><input type="radio" name="question14" value="b"> 8</label><br>
+            <label><input type="radio" name="question14" value="c"> 36</label><br>
+            <label><input type="radio" name="question14" value="d"> 9</label><br>
+        </div>
+
+        <div class="question">
+            <h2>15. Which keyword is used to define a class in Python?</h2>
+            <label><input type="radio" name="question15" value="a"> class</label><br>
+            <label><input type="radio" name="question15" value="b"> def</label><br>
+            <label><input type="radio" name="question15" value="c"> function</label><br>
+            <label><input type="radio" name="question15" value="d"> type</label><br>
+        </div>
+
+        <input type="submit" value="Soumettre">
+    </form>
+    <div id="result" class="result"></div>
+</body>
+</html>
